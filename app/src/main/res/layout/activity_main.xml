@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/apple"
+        android:layout_width="180dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btnnn"
+        android:elevation="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+
+
+            android:background="@drawable/btn_all"
+            android:gravity="start"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="39dp">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+
+                android:src="@drawable/apple3" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Apple"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/orange"
+        android:layout_width="180dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btnnn"
+        android:elevation="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+
+
+            android:background="@drawable/btn_all"
+            android:gravity="start"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="35dp">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+               android:scaleType="fitCenter"
+                android:src="@drawable/orage" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Orange"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/banana"
+        android:layout_width="180dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btnnn"
+        android:elevation="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+
+
+            android:background="@drawable/btn_all"
+            android:gravity="start"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="35dp">
+
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+
+
+                android:background="@drawable/btn_all"
+                android:gravity="start"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="35dp">
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/mango2" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Manngo"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Guaba"
+        android:layout_width="180dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btnnn"
+        android:elevation="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+
+
+            android:background="@drawable/btn_all"
+            android:gravity="start"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="35dp">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/guava" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Guava"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
